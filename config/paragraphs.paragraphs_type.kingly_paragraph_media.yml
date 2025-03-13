@@ -1,0 +1,10 @@
+uuid: 085fcc82-6a0c-4713-b056-6a95411761f0
+langcode: en
+status: true
+dependencies: {  }
+id: kingly_paragraph_media
+label: Media
+icon_uuid: null
+icon_default: null
+description: 'Add media.'
+behavior_plugins: {  }

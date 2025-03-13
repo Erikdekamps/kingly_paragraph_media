@@ -1,0 +1,10 @@
+name: 'Kingly paragraph media'
+type: 'Site'
+description: Configures a Kingly media paragraph.
+
+install:
+  - paragraphs
+  - layout_paragraphs
+
+config:
+  strict: false

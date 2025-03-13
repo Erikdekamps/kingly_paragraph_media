@@ -1,0 +1,24 @@
+uuid: 73ed5502-a8b0-4e0b-8e4a-42a616169a6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.kingly_paragraph_media.field_kingly_media
+    - paragraphs.paragraphs_type.kingly_paragraph_media
+  module:
+    - media_library
+id: paragraph.kingly_paragraph_media.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_media
+mode: default
+content:
+  field_kingly_media:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

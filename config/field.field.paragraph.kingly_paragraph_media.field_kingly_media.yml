@@ -1,0 +1,39 @@
+uuid: ab668d9e-a16d-441a-97d7-78638ab1f017
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_kingly_media
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.svg_image
+    - media.type.video
+    - paragraphs.paragraphs_type.kingly_paragraph_media
+id: paragraph.kingly_paragraph_media.field_kingly_media
+field_name: field_kingly_media
+entity_type: paragraph
+bundle: kingly_paragraph_media
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+      document: document
+      image: image
+      remote_video: remote_video
+      svg_image: svg_image
+      video: video
+    sort:
+      field: created
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: audio
+field_type: entity_reference

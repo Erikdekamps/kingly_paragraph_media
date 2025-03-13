@@ -1,0 +1,23 @@
+uuid: 296ea486-9b1c-498c-a4c0-976d358de8fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.kingly_paragraph_media.field_kingly_media
+    - paragraphs.paragraphs_type.kingly_paragraph_media
+id: paragraph.kingly_paragraph_media.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_media
+mode: default
+content:
+  field_kingly_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: large
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true
