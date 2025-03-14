@@ -1,6 +1,12 @@
 name: 'Kingly paragraph media'
 type: 'Site'
 description: Configures a Kingly media paragraph.
+recipes:
+  - drupal_cms_image
+  - core/recipes/audio_media_type
+  - core/recipes/document_media_type
+  - core/recipes/local_video_media_type
+  - core/recipes/remote_video_media_type
 
 install:
   - paragraphs
