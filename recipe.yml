@@ -11,6 +11,7 @@ recipes:
 install:
   - paragraphs
   - layout_paragraphs
+  - pathauto
 
 config:
   strict: false
