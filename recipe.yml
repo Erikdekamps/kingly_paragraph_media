@@ -13,7 +13,9 @@ install:
   - layout_paragraphs
   - pathauto
   - media_library
+  - focal_point
   - responsive_image
+  - svg_image
 
 config:
   strict: false

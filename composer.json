@@ -14,7 +14,8 @@
   "require": {
     "drupal/core": "^10.3 || ^11",
     "drupal/layout_paragraphs": "^2.1",
-    "drupal/responsive_image": "^3.0",
-    "erikdekamps/kingly_page": "dev-main"
+    "erikdekamps/kingly_page": "dev-main",
+    "drupal/focal_point": "^2",
+    "drupal/svg_image": "^3.1"
   }
 }
