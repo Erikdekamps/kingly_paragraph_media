@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: media_991
+label: 'Media (991w)'
+effects:
+  c9d0e1f2-a3b4-4c5d-8e9f-a0b1c2d3e4f5:
+    uuid: c9d0e1f2-a3b4-4c5d-8e9f-a0b1c2d3e4f5
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 991
+      height: 557
+      crop_type: focal_point
+  d0e1f2a3-b4c5-4d6e-8f9a-0b1c2d3e4f5a:
+    uuid: d0e1f2a3-b4c5-4d6e-8f9a-0b1c2d3e4f5a
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

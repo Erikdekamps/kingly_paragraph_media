@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: media_1800
+label: 'Media (1800w)'
+effects:
+  09cf4cfd-7a0e-41ed-8b7e-c927860bc7cc:
+    uuid: 09cf4cfd-7a0e-41ed-8b7e-c927860bc7cc
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1800
+      height: 1013
+      crop_type: focal_point
+  f2e5bbf4-89f8-4fda-b69e-e6790f1d7bbe:
+    uuid: f2e5bbf4-89f8-4fda-b69e-e6790f1d7bbe
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

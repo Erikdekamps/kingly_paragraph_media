@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.responsive
+label: Responsive
+description: 'A view mode that displays media using a responsive image style.'
+targetEntityType: media
+cache: true
