@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3d7e5c4b-8a35-474d-a7a5-59dff5744ae3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 3.jpg
+  uri:
+    -
+      value: 'public://2025-07/3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 207362
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753626104
