@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: media_768
+label: 'Media (768w)'
+effects:
+  a7d8c8a1-8b7c-4d8e-9f6a-1b2c3d4e5f60:
+    uuid: a7d8c8a1-8b7c-4d8e-9f6a-1b2c3d4e5f60
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 432
+      crop_type: focal_point
+  b8e9f9b2-9c8d-4e9f-a07b-2c3d4e5f6a71:
+    uuid: b8e9f9b2-9c8d-4e9f-a07b-2c3d4e5f6a71
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

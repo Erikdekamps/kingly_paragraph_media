@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.media_1280
+    - image.style.media_1800
+    - image.style.media_768
+    - image.style.media_991
+  theme:
+    - kingly_minimal
+id: media_responsive
+label: 'Media (Responsive)'
+image_style_mappings:
+  - image_mapping_type: image_style
+    image_mapping: media_1800
+    breakpoint_id: kingly_minimal.xl
+    multiplier: 1x
+  - image_mapping_type: image_style
+    image_mapping: media_1280
+    breakpoint_id: kingly_minimal.lg
+    multiplier: 1x
+  - image_mapping_type: image_style
+    image_mapping: media_991
+    breakpoint_id: kingly_minimal.md
+    multiplier: 1x
+  - image_mapping_type: image_style
+    image_mapping: media_768
+    breakpoint_id: kingly_minimal.sm
+    multiplier: 1x
+  - image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - media_1280
+        - media_1800
+        - media_768
+        - media_991
+    breakpoint_id: kingly_minimal.sm
+    multiplier: 2x
+breakpoint_group: kingly_minimal
+fallback_image_style: media_768

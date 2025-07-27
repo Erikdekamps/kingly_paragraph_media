@@ -1,13 +1,20 @@
 {
-    "name": "erikdekamps/kingly_paragraph_media",
-    "description": "A Drupal recipe that configures a Kingly media paragraph.",
-    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
-    "type": "drupal-recipe",
-    "license": "GPL-2.0-or-later",
-    "require": {
-        "drupal/core": "^10.3 || ^11",
-        "drupal/drupal_cms_image": "^1.0",
-        "drupal/layout_paragraphs": "^2.1",
-        "erikdekamps/kingly_page": "dev-main"
-    }
+  "name": "erikdekamps/kingly_paragraph_media",
+  "description": "A Drupal recipe that configures a Kingly media paragraph.",
+  "keywords": [
+    "drupal",
+    "recipe",
+    "paragraph",
+    "media",
+    "sdc",
+    "frontend"
+  ],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/core": "^10.3 || ^11",
+    "drupal/layout_paragraphs": "^2.1",
+    "drupal/responsive_image": "^3.0",
+    "erikdekamps/kingly_page": "dev-main"
+  }
 }
