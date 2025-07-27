@@ -1,3 +1,3 @@
-# Kingly media
+# Kingly paragraph media
 
 Installs a Kingly media paragraph.
